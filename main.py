@@ -18,9 +18,9 @@ def load_data():
     ])
 
     # Load set data
-    train_data = datasets.ImageFolder(r'D:\Projects\Python\COVID-CNN\Covid19-dataset_Augmented\train',
+    train_data = datasets.ImageFolder(r'Covid19-dataset\train',
                                       transform=transform_config)
-    test_data = datasets.ImageFolder(r'D:\Projects\Python\COVID-CNN\Covid19-dataset_Augmented\test',
+    test_data = datasets.ImageFolder(r'Covid19-dataset\test',
                                      transform=transform_config)
 
     valid_set_percentage = 0.2
